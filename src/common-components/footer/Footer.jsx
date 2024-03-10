@@ -53,14 +53,16 @@ const Footer = () => {
     <>
       <StyledFooter>
         <FooterContent>
-          <FooterContentH3>evoFrontend</FooterContentH3>
+          <FooterContentH3>uniWebshop</FooterContentH3>
           <FooterContentP>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste
             corrupti doloribus odio sed!
           </FooterContentP>
         </FooterContent>
         <FooterBottom>
-          <FooterBottomP>Copyright &copy; {new Date().getFullYear()} evoFrontend team.</FooterBottomP>
+          <FooterBottomP>
+            Copyright &copy; {new Date().getFullYear()} uniWebshop team.
+          </FooterBottomP>
         </FooterBottom>
       </StyledFooter>
     </>

@@ -42,13 +42,6 @@ const StyledBtn = styled("button")({
   borderRadius: "3px",
 });
 
-const StyledA = styled("a")({
-  textTransform: "uppercase",
-  color: "black",
-  textDecoration: "none",
-  fontWeight: "bold",
-});
-
 const Card = (props) => {
   return (
     <CardContainer>

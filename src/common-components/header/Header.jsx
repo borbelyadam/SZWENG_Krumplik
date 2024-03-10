@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./evosoftlogo.png";
+import logo from "../unilogo.png";
 import { useNavigate } from "react-router-dom";
 import MuiFormattedButton from "../MuiFormattedButton";
 const Header = (props) => {
@@ -22,17 +22,17 @@ const Header = (props) => {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-  }
+  };
   const searchFieldStyle = {
     marginLeft: "30%",
-  }
+  };
   const linkStyle = {
-    marginLeft:"auto",
+    marginLeft: "auto",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     gap: "80px",
-  }
+  };
   return (
     <>
       <div className="header1" style={headerStyle}>
